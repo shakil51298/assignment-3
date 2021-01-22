@@ -4,15 +4,14 @@
 //----------------------------------------------------------- Problem No :1
 
 function kilometerToMeter(Km) {
-    var M = Km * 1000;
-    return M;
+    var meter = Km * 1000;
+    return meter;
 }
-var resulFor2 = kilometerToMeter(2);
-console.log(resulFor2);
-var resultFor10 = kilometerToMeter(10);
-console.log(resultFor10);
+var result = kilometerToMeter(5);
+console.log(result);
 
-// --------------------------------------------------------------Problem NO : 2
+
+// ---------------------------------------------------------------Problem NO : 2
 function budgetCalculator(clock, phone, laptop) {
     var result = clock * 50 + phone * 100 + laptop * 500;
     return result;
@@ -20,7 +19,7 @@ function budgetCalculator(clock, phone, laptop) {
 var totalBudgetNeed = budgetCalculator(5, 5, 5);
 console.log(totalBudgetNeed);
 
-// ---------------------------------------------------------Problem No: 3 hotelCost
+// ----------------------------------------------------------------Problem No: 3 hotelCost
 function hotelCost(days) {
     if (days <= 10) {
         return days * 100;
