@@ -16,7 +16,7 @@ function budgetCalculator(clock, phone, laptop) {
     var result = clock * 50 + phone * 100 + laptop * 500;
     return result;
 }
-var totalBudgetNeed = budgetCalculator(5, 5, 5);
+var totalBudgetNeed = budgetCalculator(10, 5, 5);
 console.log(totalBudgetNeed);
 
 // ----------------------------------------------------------------Problem No: 3 hotelCost
@@ -40,7 +40,7 @@ function hotelCost(days) {
         return total;
     }
 }
-var totalCost = hotelCost(71);
+var totalCost = hotelCost(20);
 console.log(totalCost);
 
 
@@ -56,5 +56,5 @@ function megaFriend() {
     }
     return friends;
 }
-var result = megaFriend('Md shakil', 'Md azad', 'Md raklib', 'Thuhin', 'iqbal');
+var result = megaFriend('Md shakil khan', 'Md azad', 'Md raklib', 'Thuhin', 'iqbal');
 console.log(result);
